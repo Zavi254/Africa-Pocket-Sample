@@ -1,0 +1,228 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    background: #FFFFFF !important;
+}
+@media (min-width: 320px) and (max-width:767px) { 
+    .navbar{
+        background-color: #FFFFFF;
+        height: 55px;
+    }
+    .navbar-nav{
+        background-color: #FFFFFF;
+        position: absolute;
+    }
+    .logo{
+        max-width: 100%;
+        width: 150px;
+        height: 30px;
+    }  
+    .get-started-btn{
+        display: inline-block !important;
+        visibility: hidden;
+    }
+    .jargon{ 
+        background: #FFFFFF;
+        box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    .backed-by-experts{
+        background: #FFFFFF;
+        box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+    }
+    .african-context{
+        background: #FFFFFF;
+        box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+    }
+    .box1{
+        width: 95%;
+        margin: auto;
+    }
+    .random{
+        font-size: 16px !important;
+    }
+    .value-prop-hidden-content{
+        display: none;
+    }
+    .hola{
+        /* border: 2px solid red; */
+        font-size: 24px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) { 
+    .jargon{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .backed-by-experts{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .african-context{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .orange-heading{
+        color: #F77F00;
+    }
+    .course-benefits{
+        background: #FFFFFF !important;
+    }
+    .box1{
+        width: 80%;
+        margin: auto;
+    }
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) { 
+    .jargon{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .backed-by-experts{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .african-context{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .orange-heading{
+        color: #F77F00;
+    }
+    .course-benefits{
+        background: #FFFFFF !important;
+    }
+    .box1{
+        width: 80%;
+        margin: auto;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399px) { 
+    .jargon{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .backed-by-experts{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .african-context{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .orange-heading{
+        color: #F77F00;
+    }
+    .course-benefits{
+        background: #FFFFFF !important;
+    }
+    .box1{
+        width: 80%;
+        margin: auto;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .jargon{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .backed-by-experts{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .african-context{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .orange-heading{
+        color: #F77F00;
+    }
+    .course-benefits{
+        background: #FFFFFF !important;
+    }
+    .box1{
+        width: 80%;
+        margin: auto;
+    }
+ }
+.get-started-btn{
+    border-radius: 10px;
+}
+.buy-btn{
+    background: #FCC455 !important;
+}
+.hero-section{
+    position: relative;
+    margin-top: 70px;
+    /* width: 100vw; */
+    /* z-index: -1;     */
+}
+.hero-section h1, p{
+    color: #083E5B;
+    font-weight: 700;
+}
+.vector-bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.vector-bottom-right{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.vector-top-left{
+    position:absolute;   
+}
+.vector-top-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar-nav{
+    background-color: #fff;
+}
+.navbar{
+    background-color: #FFFFFF;
+}
+.container-fluid{
+    width: 100%;
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+.con{
+    border: 2px solid red;
+}
+.course-benefits{
+    background: rgba(147, 196, 237, 0.2);
+    border-radius: 10px;
+}
+.box{
+ background: #FFFFFF;
+ box-shadow: 0px 16px 40px rgba(8, 62, 91, 0.15);
+ border-radius: 10px;
+}
+.who-is-this{
+    border-radius: 10px;
+}
+
+
