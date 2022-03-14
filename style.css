@@ -1,6 +1,5 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
-    background: #FFFFFF !important;
 }
 @media (min-width: 320px) and (max-width:767px) { 
     .navbar{
@@ -17,7 +16,6 @@ body{
         height: 30px;
     }  
     .get-started-btn{
-        display: inline-block !important;
         visibility: hidden;
     }
     .jargon{ 
@@ -83,6 +81,9 @@ body{
         width: 80%;
         margin: auto;
     }
+    .round-number{
+        margin: auto;
+    }
    
 }
 
@@ -108,6 +109,9 @@ body{
     }
     .box1{
         width: 80%;
+        margin: auto;
+    }
+    .round-number{
         margin: auto;
     }
  }
@@ -136,6 +140,9 @@ body{
         width: 80%;
         margin: auto;
     }
+    .round-number{
+        margin: auto;
+    }
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -162,7 +169,12 @@ body{
         width: 80%;
         margin: auto;
     }
+    .round-number{
+        margin: auto;
+    }
  }
+
+
 .get-started-btn{
     border-radius: 10px;
 }
@@ -204,13 +216,19 @@ body{
 .navbar{
     background-color: #FFFFFF;
 }
-.container-fluid{
+/* .container-fluid{
     width: 100%;
     padding-right: unset !important;
     padding-left: unset !important;
-}
-.con{
     border: 2px solid red;
+} */
+.con{
+    /* border: 2px solid red; */
+    background: rgba(247, 127, 0, 0.2);
+    border-radius: 10px;
+}
+.con1{
+    border: 1px solid;
 }
 .course-benefits{
     background: rgba(147, 196, 237, 0.2);
@@ -222,7 +240,22 @@ body{
  border-radius: 10px;
 }
 .who-is-this{
-    border-radius: 10px;
+    border: 2px solid red;
+}
+.who-is-this-numbers{
+    border: 2px solid;
+}
+.each{
+    /* border: 2px solid; */
+}
+.round-number{
+    background: #93C4ED;
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
 }
 
 
