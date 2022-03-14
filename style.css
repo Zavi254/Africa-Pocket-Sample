@@ -52,8 +52,7 @@ body{
         display: none;
     }
     .hola{
-        /* border: 2px solid red; */
-        font-size: 24px;
+        font-size: 1.2em;
     }
  }
 
@@ -244,9 +243,6 @@ body{
 }
 .who-is-this-numbers{
     border: 2px solid;
-}
-.each{
-    /* border: 2px solid; */
 }
 .round-number{
     background: #93C4ED;
