@@ -163,10 +163,6 @@ body{
     .course-benefits{
         background: #FFFFFF !important;
     }
-    .con{
-        background: rgba(247, 127, 0, 0.2);
-        border-radius: 10px;
-    }
     .row-section{
         display: flex;
         flex-direction: row;
@@ -206,10 +202,6 @@ body{
     .course-benefits{
         background: #FFFFFF !important;
     }
-    .con{
-        background: rgba(247, 127, 0, 0.2);
-        border-radius: 10px;
-    }
     .row-section{
         display: flex;
         flex-direction: row;
@@ -248,10 +240,6 @@ body{
     }
     .course-benefits{
         background: #FFFFFF !important;
-    }
-    .con{
-        background: rgba(247, 127, 0, 0.2);
-        border-radius: 10px;
     }
     .row-section{
         display: flex;
