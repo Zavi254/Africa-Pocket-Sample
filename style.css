@@ -83,6 +83,15 @@ body{
         margin: 10px;
         border-radius: 10px;
     }
+    .financial-property-video{
+        background: rgba(247, 127, 0, 0.5);
+    }
+    .save-more-video{
+        background: rgba(147, 196, 237, 0.5);
+    }
+    .invest-video{
+        background: rgb(8, 62, 91);
+    }
  }
 
 
