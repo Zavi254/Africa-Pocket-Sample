@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -25,14 +29,14 @@ body{
     /* Value Prop Section*/
     .jargon{ 
         background: #FFFFFF;
-        box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 14px 40px rgba(0, 0, 0, 20%);
         border-radius: 10px;
         width: 100%;
         margin: auto;
     }
     .backed-by-experts{
         background: #FFFFFF;
-        box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 14px 40px rgba(0, 0, 0, 20%);
         border-radius: 10px;
         width: 100%;
         margin: auto;
@@ -40,14 +44,14 @@ body{
     }
     .african-context{
         background: #FFFFFF;
-        box-shadow: 0px 14px 40px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 14px 40px rgba(0, 0, 0, 20%);
         border-radius: 10px;
         width: 100%;
         margin: auto;
         padding: 5px;
     }
     .font-size-change{
-        font-size: 16px !important;
+        font-size: 1rem !important;
     }
     .value-prop-hidden-content{
         display: none;
@@ -82,6 +86,8 @@ body{
         flex-basis: 100%;
         margin: 10px;
         border-radius: 10px;
+        box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+        cursor: pointer;
     }
     .financial-property-video{
         background: rgba(247, 127, 0, 0.5);
@@ -99,9 +105,22 @@ body{
     .buy-now-button{
         /* border: 2px solid red; */
     }
-    .invest-card{
-        margin-top: 100px;
+    .card-body > .card-title{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
     }
+    .card-body > .card-img{
+        border: 2px solid red;
+    }
+    .card-body > .card-text{
+        display: none;
+    }
+    .inner-row{
+        display: none !important;
+    }
+    
+    
  }
 
 
@@ -166,13 +185,6 @@ body{
     }
 
     /* End of who is this section */
-    .card{
-        border-radius: 10px;
-        height: 550px;
-        max-height: 550px !important;
-        max-width: 500px !important;
-        padding: 50px;
-    }
 }
 
 
@@ -304,6 +316,8 @@ body{
 }
 .buy-btn{
     background: #FCC455 !important;
+    max-width: 300px;
+    margin: auto;
 }
 .hero-section{
     position: relative;
@@ -392,10 +406,16 @@ body{
     flex-basis: 100%;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    cursor: pointer;
 }
 .section{
     display: flex;
     justify-content: space-around;
 }
+.hello{
+    /* border: 2px solid red; */
+}
+
 
 
