@@ -126,6 +126,21 @@ body{
         width: 187px; 
         height:147px;
     }
+    .pro-item{
+        display: flex;
+    }
+    .pro-container{
+        border-radius: 10px;
+        background: #F77F0026;
+    }
+    .spot-your-gap{
+        flex-basis: 80%;
+        margin-top: 10px;
+    }
+    .left-section{
+        flex-basis: 20%;
+        margin-top: 10px;
+    }
     
     
  }
@@ -537,9 +552,14 @@ body{
     font-weight: 700 !important;
     color: #083E5B;
 }
+.font-weight-orange-bold{
+    font-weight: 700 !important;
+    color:#F77F00;
+}
 .text-color{
     color: #083E5B;
 }
+
 
 
 
