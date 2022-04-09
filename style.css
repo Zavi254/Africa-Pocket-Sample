@@ -29,6 +29,7 @@ body{
         border-radius: 10px;
         width: 100%;
         margin: auto;
+        padding: 10px;
     }
 
     .mobile-font-size{
@@ -68,6 +69,11 @@ body{
     .hero-section h3{
         font-size: 1.125em;
         line-height: 1.1636em;
+    }
+    .hero-section h1{
+        margin-top: 70px !important;
+        font-weight: 700;
+        font-size: 30px;
     }
     .card-text{
         display: none;
@@ -307,28 +313,27 @@ body{
 .get-started-btn{
     border-radius: 10px;
 }
-.buy-btn{
+.buyNowButton{
     background: #FCC455 !important;
-    max-width: 300px;
-    margin: auto;
+    margin: auto;  
+    color: #083E5B !important;
+    max-width: 531px;
+
 }
 .hero-section{
     position: relative;
     margin-top: 60px;
-    width: 100%;
-    min-height: 300px;
 }
 .hero-section h1{
-    margin-bottom: 43px;
-    padding-top: 80px;
+    margin-bottom: 30px;
+    margin-top: 40px;
     font-weight: 700;
-    font-size: 3em;
-    line-height: 1.05em;
 }
 .hero-section h3{
     text-align: center;
-    padding-bottom: 50px;
-    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: 600 !important;
 }
 .vector-bottom-left{
     position: absolute;
@@ -354,10 +359,6 @@ body{
 }
 .navbar{
     background-color: #FFFFFF;
-}
-.hy{
-    /* border: 2px solid; */
-    padding-left: 10px;
 }
 
 .box{
